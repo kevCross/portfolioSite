@@ -1,0 +1,54 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Abel', sans-serif;
+}
+
+#name {
+	width:400px;
+	height:20px;
+	display:block;
+}
+
+#eMail {
+	width:400px;
+	height:20px;
+	display:block;
+}
+
+#subject{
+	width:400px;
+	height:20px;
+	display:block;
+}
+
+#comments {
+	width:400px;
+	height:235px;
+	display:block;
+	resize: none;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-weight: 900;
+	color:red;
+}
+
+#send {
+	font-weight:900;
+	border: dashed orange 2px;
+	color: orange;
+	background:lightblue;
+	width:150px;
+	height:30px;
+	margin-top:20px;
+}
+
+label {
+	color:orange;
+	font-weight:900;
+	font-variant:small-caps;
+}

@@ -1,0 +1,152 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Abel', sans-serif;
+}
+
+
+body {
+	display:grid;
+	justify-content:center;
+	width:100vw;
+	height:100vh;
+	background-image:url(ohioOutline30p.png);
+	position:relative;
+	background-attachment:fixed;
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size: 88%;
+}
+
+#logoContainer {
+	width:50vw;
+	height:auto;
+}
+
+#introContainer {
+	width:50vw;
+	height:auto;
+}
+
+#introContainer h2{
+	color:darkred;
+	font-weight:900;
+}
+
+#contentArea {
+	width:50vw;
+	height:auto;
+}
+
+#contactContainer {
+	display:grid;
+	width:200px;
+	height:auto;
+	justify-content:center;
+}
+
+#contactContainer h4{
+	font-weight:900;
+	justify-content:center;
+}
+
+#logoWindow {
+	width:145px;
+	height:225px;
+	background:lightblue;
+	position:relative;
+	border-radius:50%;
+	
+}
+
+footer {
+	width:80vw;
+	height:auto;
+}
+
+.circles {
+	width:78px;
+	height:78px;
+	border-radius:50%;
+	background:lightblue;
+	position:relative;
+	margin-top: 10px;
+}
+
+.icons {
+		width:75px;
+		height:75px;
+}
+
+.not_active {
+		text-decoration:none;
+		color: darkblue;
+		font-weight:900;
+}
+
+#logo:hover {
+		cursor:pointer;
+}
+
+#logoContainer {
+	grid-area:"logo";
+	position:relative;
+	/*border: 2px pink solid;*/
+}
+
+#introContainer {
+	grid-area:"intro";
+	position:relative;
+	/*border: 2px lime solid;*/
+}
+
+#xpertContainer {
+	/*border: 2px darkgreen solid;*/
+}
+
+#contentArea {
+	grid-area: "content";
+	position:relative;
+	/*border: 2px orange solid;*/
+}
+
+#contactContainer {
+	grid-area: "contact";
+	position:fixed;
+	top:100px;
+	right:-3.75rem;
+	/*border: 2px red solid;*/
+	justify-content:center;
+}
+
+#windowContainer{
+	grid-area:"win";
+	position:relative;
+	margin-top:30px;
+	margin-bottom:30px;
+	/*border: 2px yellow solid;*/
+	z-index:1000;
+}
+
+#footContainer {
+	grid-area: "foot";
+	position:relative;
+	/*border: 2px green solid;*/
+}
+
+#logoContainer, #introContainer, #contentArea, #contactContainer, #footContainer {
+	
+	margin-left: 25px;
+	padding: 10px;
+}
+
+#windowFrame{
+	width:90%;
+	border: none;
+	
+}
+
+//innerWidth below 920px width reduce windowFrame with to 95%
+//innerWidth below 670px width reduce WindowFrame width to 85%
+

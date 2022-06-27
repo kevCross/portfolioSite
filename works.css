@@ -1,0 +1,58 @@
+*{
+	text-decoration:none;
+	font-family: 'Abel', sans-serif;
+}
+
+
+.tpg {
+	width:104px;
+	height:104px;
+}
+
+#dynImg {
+	width:350px;
+	height:350px;
+}
+
+#contactContainer {
+	display:grid;
+	grid-area: "contact";
+	position:relative;
+	bottom:100px;
+	left:400px;
+	/*border: 2px red solid;*/
+	justify-content:center;
+	z-index:1;
+}
+
+#folioTable {
+	/*border: 2px red solid;*/
+}
+
+#tableHeader {
+	/*border: 2px green solid;*/
+}
+
+#subHeader {
+	/*border: 2px lime solid;*/
+}
+
+
+#imageContainer {
+	/*border: 2px blue solid;*/
+}
+
+#colOne {
+	/*border: 2px orange solid;*/
+}
+
+.cyan {
+	color:cyan;
+	text-transform:uppercase;
+	font-weight:900;
+}
+.titleMouseOver{
+	color:darkblue;
+	font-size:1.5rem;
+	font-weight:900;
+}
