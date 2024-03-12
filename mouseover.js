@@ -1,5 +1,5 @@
 //urls
-var homePage = "indexOne.html";
+var homePage = "index.html";
 //works.html
 
 //rollovers images
