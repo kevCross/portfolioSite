@@ -18,21 +18,21 @@ let contactImg = images[5];
 
 //events
 homeImg.addEventListener("mouseover", function(){
-	firstImg.setAttribute("src","img/ptg_home.png");
+	firstImg.setAttribute("src","ptg_home.png");
 });
 
 aboutImg.addEventListener("mouseover", function(){
-	firstImg.setAttribute("src","img/ptg_about.png");
+	firstImg.setAttribute("src","ptg_about.png");
 });
 
 beliefsImg.addEventListener("mouseover", function(){
-	firstImg.setAttribute("src","img/ptg_beliefs.png");
+	firstImg.setAttribute("src","ptg_beliefs.png");
 });
 
 missionImg.addEventListener("mouseover", function(){
-	firstImg.setAttribute("src","img/ptg_mission_vision.png");
+	firstImg.setAttribute("src","ptg_mission_vision.png");
 });
 
 contactImg.addEventListener("mouseover", function(){
-	firstImg.setAttribute("src","img/ptg_contact.png");
+	firstImg.setAttribute("src","ptg_contact.png");
 });
